@@ -12,11 +12,15 @@ Plan is to build out UI, then backend, then dockerize the whole shebang
 
 ## Right now though
 
-**In progress**
+### Todo
 
-- Working to see if RTK or React Query is a better method of integrating with backend
 - Switch to Typescript eventually
 
-_Complete_
+### In progress
+
+- Working to see if RTK or React Query is a better method of integrating with backend
+
+
+### Complete
 
 - Got basic UI and integration with backend working
