@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* universally style headings */
+@layer base {
+  h1 {
+    @apply text-8xl;
+  }
+
+  h2 {
+    @apply text-6xl;
+  }
+
+  h3 {
+    @apply text-4xl;
+  }
+
+  h4 {
+    @apply text-2xl;
+  }
+
+  /* no reason to go any further, text is by default text-1xl */
+
+  /* universal styles */
+  /* change cursor on disabled elements */
+  *:disabled {
+    @apply cursor-not-allowed;
+    @apply opacity-70;
+  }
+
+  /* full screen */
+  html,
+  body,
+  #root,
+  .App {
+    @apply h-full;
+  }
+}
