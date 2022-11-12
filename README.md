@@ -6,3 +6,4 @@ Very simple todo app
 - UI - React
   - tailwind for style
   - useReducer for quick prototyping
+  - switched to typescript
